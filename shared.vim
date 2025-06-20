@@ -58,5 +58,6 @@ set background=dark
 nnoremap <c-j> :bn<CR>
 nnoremap oo o<Esc>k
 nnoremap OO O<Esc>j
-vmap K :move '<-2<CR>gv=gv
-vmap J :move '>+1<CR>gv=gv
+vnoremap K :move '<-2<CR>gv=gv
+vnoremap J :move '>+1<CR>gv=gv
+nnoremap <U> <nop>
